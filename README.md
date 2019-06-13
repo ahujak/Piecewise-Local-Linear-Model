@@ -19,4 +19,6 @@ min_clus = minimum size of the cluster
 
 fit_type = 'equal_quantile' divide the f's range into equal quantiles, and fit_type = 'optimal' divide the f's range using the Algorithm 1 and 2 in https://arxiv.org/pdf/1806.10270.pdf.
 
-
+### Methods
+fit: fit(self, X, y) Build a piecewise model from the training set (X, y)
+model_interpretations_extension: model_interpretations_extension(self) Generates 
