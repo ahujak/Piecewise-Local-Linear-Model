@@ -20,9 +20,20 @@ min_clus = minimum size of the cluster
 fit_type = 'equal_quantile' divide the f's range into equal quantiles, and fit_type = 'optimal' divide the f's range using the Algorithm 1 and 2 in https://arxiv.org/pdf/1806.10270.pdf.
 
 ### Methods
-fit: fit(self, X, y) Build a piecewise model from the training set (X, y), X is an array of features size [n_samples, n_features] and y is the target data of size [n_samples,] 
+fit: fit(self, X, Y) Build a piecewise model from the training set (X, Y), X is an array of features size [n_samples, n_features] and Y  is the target data of size [n_samples,] 
 
 predict_extension: predict_extension(self, test), test is an array with one test data point of size [1,1]
 
 model_interpretations_extension: model_interpretations_extension(self) returns ind_vector: index of the vector of the features in the decreasing order of the absolute value of their coefficients in the linear model, f_vec: absolute value of the coefficients of the corresponding features in the decreasing order
 
+Ind_sequence: Ind_sequence(self) function to compute the indices in the sorted data (Ys defined below) at which the data is partitioned along function f's range 
+
+
+
+### Attributes
+Ys: sorted values of Y
+Xs: features sorted in the same order as Y is sorted
+
+Xs_transform: transformed data Xs (if project = 'true' we use PCA to transform the data, else Xs_transform= Xs)
+ind_sequence
+sequence_indices: sequence_indices(self)
