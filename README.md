@@ -4,4 +4,6 @@ In this project, we provide a method to construct piecewise local linear approxi
 
 ### Parameters:
 K: integer, number of intervals to partition the f's range 
-model_type 
+model_type = "linear" for a piecewise linear approximation and model_type = "constant" for a piecewise constant approximation
+delta = 1 (Default)
+black_box = black box model (here model's from sklearn are permitted)
