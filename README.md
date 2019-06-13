@@ -32,6 +32,7 @@ Ind_sequence: Ind_sequence(self) function to compute the indices in the sorted d
 
 ### Attributes
 Ys: sorted values of Y
+
 Xs: features sorted in the same order as Y is sorted
 
 Xs_transform: transformed data Xs (if project = 'true' we use PCA to transform the data, else Xs_transform= Xs)
