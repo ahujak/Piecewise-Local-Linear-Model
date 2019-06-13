@@ -22,7 +22,7 @@ fit_type = 'equal_quantile' divide the f's range into equal quantiles, and fit_t
 ### Methods
 fit: fit(self, X, Y) Build a piecewise model from the training set (X, Y), X is an array of features size [n_samples, n_features] and Y  is the target data of size [n_samples,] 
 
-predict_extension: predict_extension(self, test), test is an array with one test data point of size [1,1]
+predict_extension: predict_extension(self, test), test is an array with one test data point of size [1,n_features]
 
 model_interpretations_extension: model_interpretations_extension(self) returns ind_vector: index of the vector of the features in the decreasing order of the absolute value of their coefficients in the linear model, f_vec: absolute value of the coefficients of the corresponding features in the decreasing order
 
@@ -36,4 +36,13 @@ Xs: features sorted in the same order as Y is sorted
 
 Xs_transform: transformed data Xs (if project = 'true' we use PCA to transform the data, else Xs_transform= Xs)
 ind_sequence
-sequence_indices: sequence_indices(self)
+
+sequence_indices: sequence_indices is the indices of the sorted data at which the data is partitioned along function f's range
+
+cluster_centers: cluster_centers is the array of cluster centers of shape [K, n_clus]
+
+cluster_index: cluster_index is the array of cluster indices of the different data points in Xs and its shape is [n_samples,] 
+
+
+
+
