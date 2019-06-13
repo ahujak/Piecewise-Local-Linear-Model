@@ -22,4 +22,4 @@ fit_type = 'equal_quantile' divide the f's range into equal quantiles, and fit_t
 ### Methods
 fit: fit(self, X, y) Build a piecewise model from the training set (X, y)
 
-model_interpretations_extension: model_interpretations_extension(self) returns ind_vector: index of the vector of the features in the decreasing order of the absolute value of their coefficients in the linear model, f_vec, absolute value of the coefficients of the corresponding features in the decreasing order
+model_interpretations_extension: model_interpretations_extension(self) returns ind_vector: index of the vector of the features in the decreasing order of the absolute value of their coefficients in the linear model, f_vec: absolute value of the coefficients of the corresponding features in the decreasing order
