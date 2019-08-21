@@ -3,11 +3,13 @@ In this project, we provide a method to construct piecewise local linear approxi
 ## piecewise_model_new class
 
 ### Parameters:
-K: integer, number of intervals to partition the f's range 
-model_type = "linear" for a piecewise linear approximation and model_type = "constant" for a piecewise constant approximation
-delta = 1 (Default)
+K= number of intervals to partition the f's range 
 
-black_box = black box model (here model's from sklearn are permitted)
+model_type = "linear" for a piecewise linear approximation and model_type = "constant" for a piecewise constant approximation
+
+delta = 1 (default is 1 and don't change this)
+
+black_box = black box model (use sklearn models, e.g., random forest regresssion)
 
 n_components = number of components in PCA, 
 
