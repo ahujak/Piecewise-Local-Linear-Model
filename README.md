@@ -1,5 +1,5 @@
 # Piecewise Local Linear Model
-In this project, we provide a method to construct piecewise local linear approximations of a black box model. The main idea behind building piecewise approximations is to divide the feature space into homogeneous regions and explain the model behavior locally in terms of a linear model. This work is based on [1][2] 
+In this project, we provide a method to construct piecewise local linear approximations of a black box model. The main idea behind building piecewise approximations is to divide the feature space into homogeneous regions and explain the model behavior locally in terms of a linear model. This work is based on [1][2]. 
 ## piecewise_model_new class
 
 ### Parameters:
@@ -52,4 +52,4 @@ cluster_index: cluster_index is the array of cluster indices of the different da
 ### References
 [1] K. Ahuja et.al., "Optimal Piecewise Local-Linear Approximations", https://arxiv.org/pdf/1806.10270.pdf
 
-[2]K. Ahuja et.al,  "Optimal Piecewise Approximations for Model Interpretation",  accepted in 53rd Annual Asilomar Conference on Signals, Systems, and Computers (2019).
+[2] K. Ahuja et.al,  "Optimal Piecewise Approximations for Model Interpretation",  accepted in 53rd Annual Asilomar Conference on Signals, Systems, and Computers (2019).
