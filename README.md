@@ -50,6 +50,6 @@ cluster_index: cluster_index is the array of cluster indices of the different da
 
 
 ### References
-[1] "Optimal Piecewise Local-Linear Approximations", K. Ahuja et.al. https://arxiv.org/pdf/1806.10270.pdf
+[1] K. Ahuja et.al., "Optimal Piecewise Local-Linear Approximations", https://arxiv.org/pdf/1806.10270.pdf
 
-[2] "Optimal Piecewise Approximations for Model Interpretation", K. Ahuja et.al. accepted in 53rd Annual Asilomar Conference on Signals, Systems, and Computers (2019).
+[2]K. Ahuja et.al,  "Optimal Piecewise Approximations for Model Interpretation",  accepted in 53rd Annual Asilomar Conference on Signals, Systems, and Computers (2019).
